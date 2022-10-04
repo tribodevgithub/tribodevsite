@@ -107,6 +107,7 @@ p {
 /* model */
 .modal-content {
     background: #1c1c1c;
+    margin-top: 100px;
 }
 
 .modal-title {
