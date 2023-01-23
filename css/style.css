@@ -534,7 +534,7 @@ p {
 2.0 *** BANNER AREA START ***
 =============================*/
 #banner {
-    padding: 260px 0 100px;
+    padding: 200px 0 100px;
     position: relative;
     width: 100%;
 }
@@ -659,8 +659,13 @@ p {
 3.0 *** FEATURE AREA START ***
 =============================*/
 .overview {
+    padding: 160px 0;
+}
+
+.overview2 {
     padding: 60px 0;
 }
+
 
 .over-pa {
     padding-top: 60px;
@@ -994,6 +999,7 @@ over-btn a i {
     font-family: pb;
     position: relative;
     margin: auto;
+    text-align: center;
 }
 
 .about-txt a i {
@@ -1722,8 +1728,12 @@ textarea::placeholder {
     border-top: 2px dashed #222;
 }
 
+#videoplay {
+    padding: 120px 0 85px;
+}
+
 .footer-logo p {
-    color: #787878;
+    color: #ffffff;
     font-family: pr;
     padding-top: 10px;
     line-height: 29px;
