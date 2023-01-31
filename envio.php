@@ -17,15 +17,15 @@ try {
 
     $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'no-reply@andoblu.com.br';                     //SMTP username
-    $mail->Password   = '#srCwxZaF$3x32s';                               //SMTP password
+    $mail->Username   = 'no-reply@tribodev.com.br';                     //SMTP username
+    $mail->Password   = 'DGQ7Xc)H-P8js';                               //SMTP password
     $mail->SMTPSecure = 'ssl';            //Enable implicit TLS encryption
     $mail->Port       = 465;    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('no-reply@andoblu.com.br', 'TriboDEV');
-    $mail->addAddress('no-reply@andoblu.com.br', 'TriboDEV');     //Add a recipient
-    $mail->addReplyTo('no-reply@andoblu.com.br', 'Information');
+    $mail->setFrom('no-reply@tribodev.com.br', 'TriboDEV');
+    $mail->addAddress('no-reply@tribodev.com.br', 'TriboDEV');     //Add a recipient
+    $mail->addReplyTo('no-reply@tribodev.com.br', 'Information');
     $mail->isHTML(true);                                  
     $mail->Subject = 'Mensagem enviada do Site - TriboDEV';
 
@@ -55,5 +55,3 @@ if ( $enviado ) {
     </script>";
     
 }
-?>
-
